@@ -1,0 +1,14 @@
+#miCarrusel {
+  max-width: 700px;
+  margin: 0 auto; /* Centra el carrusel */
+}
+
+#miCarrusel img {
+  max-height: 300px; /* Limita la altura de las imágenes si son muy grandes */
+  object-fit: cover; /* Opcional, para recortar la imagen en lugar de deformarla */
+}
+
+.card-img-top {
+  height: 400px;         /* Altura fija */
+}
+
